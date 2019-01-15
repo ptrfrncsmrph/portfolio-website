@@ -1655,6 +1655,10 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
   font-size: 1em;
 }
 
+.item p {
+  font-size: 0.8em;
+}
+
 /* Icons */
 
 .icon {
