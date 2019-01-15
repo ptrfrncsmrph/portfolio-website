@@ -1897,6 +1897,14 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
   background-color: #81918E;
 }
 
+header h2:hover span.wave {
+  animation: wave-animation 0.3s 2 ease-in-out;
+}
+
+span.wave {
+  display: inline-block;
+}
+
 /* All of this is a hack to load a very
 	 small image on page load, and then 
 	 lazy-load the massive one */
@@ -2215,5 +2223,17 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
   }
   #footer .copyright li:first-child {
     margin-top: 0;
+  }
+}
+
+@keyframes wave-animation {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-15deg);
   }
 }
