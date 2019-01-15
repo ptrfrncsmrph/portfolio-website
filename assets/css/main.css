@@ -1869,7 +1869,6 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 
 #main>section.dark {
   color: #ddd;
-  color: rgba(255, 255, 255, 0.75);
 }
 
 #main>section.dark h2, #main>section.dark h3, #main>section.dark h4, #main>section.dark h5, #main>section.dark h6 {
@@ -1898,7 +1897,6 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 
 #main>section.one {
   position: relative;
-  /* background-color: #81918E; */
 }
 
 header h2:hover span.wave {
@@ -1935,9 +1933,6 @@ span.wave {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-size: cover; */
-  /* transform: scale(1.1); */
-  /* filter: blur(10px); */
   background-image: url("../../images/banner.jpg");
 }
 
